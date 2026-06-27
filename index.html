@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ghost Finder X</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div id="loading">
+
+<h1 class="glitch">GHOST FINDER X</h1>
+
+<p>Initializing System...</p>
+
+<div class="loader"></div>
+
+</div>
+
+<div id="app">
+
+<header>
+
+<h1>👻 Ghost Finder X</h1>
+
+<p>Paranormal Investigation System</p>
+
+</header>
+
+<section class="camera">
+
+<video id="camera" autoplay playsinline></video>
+
+<canvas id="snapshot"></canvas>
+
+</section>
+
+<section class="scanPanel">
+
+<h2>Spirit Scanner</h2>
+
+<button id="scanBtn">
+
+START SCAN
+
+</button>
+
+<p id="status">
+
+System Idle
+
+</p>
+
+</section>
+
+<section class="radar">
+
+<div class="circle c1"></div>
+
+<div class="circle c2"></div>
+
+<div class="circle c3"></div>
+
+<div class="line"></div>
+
+<div class="dot"></div>
+
+</section>
+
+<section class="emf">
+
+<h2>EMF SIGNAL</h2>
+
+<div class="meter">
+
+<div id="bar"></div>
+
+</div>
+
+<p id="emfValue">
+
+0%
+
+</p>
+
+</section>
+
+<section class="readings">
+
+<div class="box">
+
+Temperature
+
+<h3 id="temp">
+
+-- °C
+
+</h3>
+
+</div>
+
+<div class="box">
+
+Energy
+
+<h3 id="energy">
+
+0%
+
+</h3>
+
+</div>
+
+<div class="box">
+
+Activity
+
+<h3 id="activity">
+
+NONE
+
+</h3>
+
+</div>
+
+</section>
+
+<section class="journal">
+
+<h2>Investigation Log</h2>
+
+<textarea
+id="log"
+placeholder="Write your findings here...">
+</textarea>
+
+<button id="saveLog">
+
+Save Log
+
+</button>
+
+</section>
+
+<footer>
+
+Ghost Finder X Version 1
+
+</footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
